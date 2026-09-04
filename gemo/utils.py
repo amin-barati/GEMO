@@ -176,8 +176,8 @@ def compute_class_statistics(
 ) -> Tuple[int, Dict[str, Dict[str, int]]]:
 
     
-    from xyz2RGB import group_trk_files_by_subject
-    from streamline_features import _count_streamlines_fast
+    from .xyz2RGB import group_trk_files_by_subject
+    from .streamline_features import _count_streamlines_fast
 
     subject_groups = group_trk_files_by_subject(trk_dir, separator=separator)
     n_subjects = len(subject_groups)
