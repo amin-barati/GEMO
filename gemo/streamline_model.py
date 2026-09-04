@@ -58,8 +58,8 @@ from tqdm import tqdm
 import nibabel as nib
 from nibabel.streamlines import Tractogram, TrkFile
 
-from xyz2RGB import IMAGE_SIDE, group_trk_files_by_subject, load_bounds_metadata_h5, streamline_to_rgb
-from streamline_features import (
+from .xyz2RGB import IMAGE_SIDE, group_trk_files_by_subject, load_bounds_metadata_h5, streamline_to_rgb
+from .streamline_features import (
     DEFAULT_GRID_SIZE,
     DEFAULT_SCALES,
     FIELD_DTYPES,
