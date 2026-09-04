@@ -37,7 +37,7 @@ Repository = "https://github.com/amin-barati/GEMO"
 
 [project.scripts]
 gemo-train = "gemo.train:cli"
-gemo-infer = "gemo.inference:cli"
+gemo-infer = "gemo.cli:main"
 
 [tool.setuptools]
 packages = ["gemo"]
