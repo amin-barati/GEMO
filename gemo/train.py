@@ -33,10 +33,10 @@ import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
 
-from config import Config, DataConfig
-from dataset import build_datasets
-from streamline_model import StreamlineClassifier, build_label_mapping, count_trainable_parameters
-from utils import (
+from .config import Config, DataConfig
+from .dataset import build_datasets
+from .streamline_model import StreamlineClassifier, build_label_mapping, count_trainable_parameters
+from .utils import (
     AverageMeter,
     compute_class_statistics,
     compute_class_weights,
