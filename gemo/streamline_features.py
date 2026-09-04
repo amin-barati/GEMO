@@ -56,7 +56,7 @@ from tqdm import tqdm
 
 import nibabel as nib
 
-from xyz2RGB import (
+from .xyz2RGB import (
     compute_subject_bounds,
     group_trk_files_by_subject,
     load_bounds_metadata_h5,
