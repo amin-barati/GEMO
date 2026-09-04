@@ -30,9 +30,9 @@ import logging
 
 import numpy as np
 
-from config import Config
-from streamline_model import StreamlineClassifier, classify_tractogram
-from utils import label_map_to_class_names, load_checkpoint, load_label_map, resolve_device
+from .config import Config
+from .streamline_model import StreamlineClassifier, classify_tractogram
+from .utils import label_map_to_class_names, load_checkpoint, load_label_map, resolve_device
 
 logger = logging.getLogger("inference")
 if not logger.handlers:
