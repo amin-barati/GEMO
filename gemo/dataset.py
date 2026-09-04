@@ -22,9 +22,9 @@ from typing import List, Tuple
 
 import numpy as np
 
-from config import Config
-from xyz2RGB import group_trk_files_by_subject
-from streamline_model import StreamlineDataset, build_label_mapping
+from .config import Config
+from .xyz2RGB import group_trk_files_by_subject
+from .streamline_model import StreamlineDataset, build_label_mapping
 
 __all__ = ["StreamlineDataset", "build_label_mapping", "train_val_subject_split", "build_datasets"]
 
