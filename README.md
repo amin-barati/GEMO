@@ -58,7 +58,7 @@ pip install git+https://github.com/amin-barati/GEMO.git
 
 This requires `git` to be available on your machine.
 
-# Usage: classify a tractogram
+# Usage: classify a whole brain tractogram
 
 ```bash
 gemo-infer --trk-path wholebrain.trk --output-dir classified_output
