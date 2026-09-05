@@ -45,6 +45,11 @@ Diffusion-weighted magnetic resonance imaging (dMRI) is often used to study brai
  
 # Installation
 
+GEMO can be installed directly from PyPI:
+```python
+pip install gemo-tractography
+```
+or
 Install directly from GitHub:
 
 ```bash
